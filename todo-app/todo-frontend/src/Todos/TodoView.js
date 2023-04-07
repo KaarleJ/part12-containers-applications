@@ -25,6 +25,7 @@ const TodoView = () => {
     await axios.delete(`/todos/${todo._id}`)
     refreshTodos()
   }
+  
 
   const completeTodo = async (todo) => {
     await axios.put(`/todos/${todo._id}`, {

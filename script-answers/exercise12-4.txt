@@ -1,0 +1,7 @@
+docker run -i practical-mayer
+apt-get -y install curl
+curl -sL https://deb.nodesource.com/setup_16.x | bash
+apt install -y nodejs
+node /usr/src/app/index.js
+//Hello World
+exit
